@@ -18,7 +18,7 @@ from setuptools import setup, find_packages
 
 install_requires = [
     'sentry>=5.3.3',
-    'git+git://github.com/depop/pygerduty.git'
+    'pygerduty>=0.22',
 ]
 
 f = open('README.rst')
@@ -27,7 +27,7 @@ f.close()
 
 setup(
     name='sentry-pagerduty',
-    version='0.0.1',
+    version='0.0.2',
     author='Depop developers',
     author_email='dev@depop.com',
     url='https://github.com/depop/sentry-pagerduty',
