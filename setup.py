@@ -17,7 +17,7 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    'sentry>=5.3.3'
+    'sentry>=5.3.3',
     'git+git://github.com/depop/pygerduty.git'
 ]
 
